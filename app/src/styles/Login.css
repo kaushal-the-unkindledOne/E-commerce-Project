@@ -1,0 +1,71 @@
+.login-container {
+    background-image: url('../images/bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); 
+    padding: 2rem;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .form-control-custom {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 25px;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .btn-custom {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    padding: 0.75rem;
+    border: none;
+    transition: all 0.3s ease;
+  }
+
+  .btn-custom:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+  }
+  
+  .register-link {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .register-link:hover {
+    color: lightgray;
+  }
+  
+  .password-input-wrapper {
+    position: relative;
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #6c757d;
+  }
+  
+  .password-toggle-icon:hover {
+    color: #000;
+  }
+  
